@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="main-title"><h1>Animal Protection</h1></section>
+				<section><img src="./img/girl-1.png" id="girl-1"><h4>Hello, my name is Wendy. In this game you will go with me to save the animals.
+				 Superheroes usually save people, but no one thinks about animals, so I decided to save them. Animals Protection is the meaning of my life.</h4></section>
+				<section>
+					<img src="./img/game.png" id="game">
+					<h3 id="title-1">In this game we have three levels:</h3>
+					<h4>Level on time</h4>
+					<h4>on score <h4/>
+					<h4>and hardcore game</h4>
+				</section>
+				<section>
+					<h3>what difficulties I encountered during the development of the game?</h3>
+				</section>
+				<section>
+					<h3>The game is developed using only:</h3>
+					<h3>CSS</h3>
+					<h3>HTML</h3>
+					<h3>JAVASCRIPT</h3>
+				</section>
+				<section><h2>game created by Elizaveta Zhernosek</h2></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
